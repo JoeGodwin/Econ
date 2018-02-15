@@ -1,0 +1,11 @@
+capture log close
+log using CPI, replace text
+ 
+*Learning how to use GitHuB
+ 
+version 14
+clear all
+macro drop _all
+set linesize 80
+
+use CPI_data, clear
